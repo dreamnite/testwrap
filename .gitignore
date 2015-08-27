@@ -1,3 +1,4 @@
+### Ignore kitchen
 .kitchen
 # Windows image file caches
 Thumbs.db
@@ -42,3 +43,32 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*~
+
+*#
+
+.#*
+
+\#*#
+
+.*.sw[a-z]
+
+*.un~
+
+pkg/
+
+
+
+# Berkshelf
+
+.vagrant
+
+/cookbooks
+
+
+
+Berksfile.lock
+
+.kitchen/
+.kitchen.local.yml
