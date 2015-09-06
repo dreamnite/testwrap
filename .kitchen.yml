@@ -1,0 +1,18 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: centos-6.6
+  - name: centos-5.11
+
+suites:
+  - name: testwrap
+    run_list:
+
+      - recipe[testwrap::default]
+
+    attributes:
